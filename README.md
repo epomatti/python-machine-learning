@@ -1,5 +1,13 @@
 # Python ML
 
-1. Install Scikit: `pip install -U scikit-learn`
-2. Install Matplot: `python -m pip install -U matplotlib`
-3. Run `python <program.py>`
+```sh
+python3 -m venv env
+. env/bin/activate
+pip install -r requirements.txt
+```
+
+Run it:
+
+```sh
+python3 <program.py>
+```
